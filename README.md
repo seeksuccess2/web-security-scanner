@@ -33,21 +33,25 @@ cd web-security-scanner
 python -m venv venv
 venv\Scripts\activate  # Windows
 ```
+### 📌 Dependency Breakdown
 
-### 3️⃣ **Install Dependencies**
 This project requires multiple dependencies for core functionality, development, testing, and security analysis.
 
 Run the following command to install all required dependencies:
+
 ```bash
 pip install -r requirements.txt
 
+
 ```
-📌 Dependency Breakdown:
-Category   |  Purpose                 |	Packages
-Core       |Fetch HTTP headers        |	requests
-Development|Code formatting & linting |	pylint, black, flake8
-Testing	  |Automated testing	pytest  | coverage, Pytest
-Security	  |Scan for vulnerabilities  |bandit, safety
+📌 How to Install a Specific Dependency
+
+If you need to install just one package, use:
+
+pip install <package_name>
+
+
+
 
 
 ---
