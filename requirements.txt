@@ -1,15 +1,15 @@
 # Core Dependencies
-requests  # Fetch HTTP headers from websites
+requests
 
 # Development Tools
-pylint    # Code linter for static analysis
-black     # Code formatter for consistent styling
-flake8    # Additional linting and style checking
+pylint
+black
+flake8
 
 # Testing Tools
-pytest     # Framework for writing and running tests
-coverage   # Measures test coverage
+pytest
+coverage
 
 # Security Tools
-bandit     # Detects security vulnerabilities in Python code
-safety     # Checks for known vulnerabilities in dependencies
+bandit
+safety
